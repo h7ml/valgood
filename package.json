@@ -1,0 +1,78 @@
+{
+  "name": "valgood",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.26.3",
+  "description": "ValGood is a powerful naming assistant designed specifically for programmers. It aims to simplify the process of naming variables, functions, classes, and other code entities, ultimately enhancing code readability and maintainability.",
+  "author": {
+    "name": "h7ml",
+    "mail": "h7ml@qq.com",
+    "github": "https://github.com/h7ml/valgood"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://valgood.h7ml.cn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h7ml/valgood.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h7ml/valgood/issues"
+  },
+  "keywords": [
+    "react",
+    "reactflow",
+    "valgood"
+  ],
+  "engines": {
+    "npm": ">=9.6.5",
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "antd": "^5.5.1",
+    "dayjs": "^1.11.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config-react": "^0.39.3",
+    "@femm/prettier": "^1.1.0",
+    "@femm/verify-commit": "^1.0.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
