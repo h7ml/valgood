@@ -5,6 +5,7 @@ import lazyLoad from './lazyLoad'
 import Layout from '@/components/Layout'
 import Home from '@/pages/Home'
 import About from '@/pages/About'
+import Dashboard from '@/pages/dashboard'
 
 const routes: RouteObject[] = [
   {
@@ -18,6 +19,10 @@ const routes: RouteObject[] = [
       {
         path: 'home',
         element: lazyLoad(Home),
+      },
+      {
+        path: 'dashboard',
+        element: lazyLoad(Dashboard),
       },
       {
         path: 'about',

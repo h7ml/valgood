@@ -38,8 +38,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@ant-design/plots": "^1.2.5",
+    "@antv/g2plot": "^2.4.31",
     "antd": "^5.5.1",
     "dayjs": "^1.11.7",
+    "i18next": "^22.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",

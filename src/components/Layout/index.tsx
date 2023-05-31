@@ -21,6 +21,10 @@ const items: MenuProps['items'] = [
     path: '/home',
   },
   {
+    label: 'dashboard',
+    path: '/dashboard',
+  },
+  {
     label: 'about',
     path: '/about',
   },
